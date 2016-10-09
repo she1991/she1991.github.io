@@ -3432,10 +3432,10 @@
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
-					font-weight: 600;
+					font-size: 0.93em;
+					font-weight: 90;
 					letter-spacing: 0.25em;
-					text-transform: uppercase;
+					/*text-transform: uppercase;*/
 				}
 
 		#banner.major {

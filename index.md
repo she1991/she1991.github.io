@@ -15,7 +15,7 @@ nav-menu:
 			<h1>{{ page.landing-title }}</h1>
 		</header>
 		<div class="content">
-			<p style="text-transform: uppercase;">{{ site.description }}</p>
+			<p>{{ site.description }}</p>
 			<ul class="actions">
 				<li><a href="#one" class="button next scrolly">See My Portfolio</a></li>
 			</ul>
