@@ -18,6 +18,8 @@ nav-menu:
 			<p>{{ site.description }}</p>
 			<ul class="actions">
 				<li><a href="#one" class="button next scrolly">See My Portfolio</a></li>
+				<br/><br/>
+				<li><a href="#contact" class="button next scrolly">Contact Me</a></li>
 			</ul>
 		</div>
 	</div>
