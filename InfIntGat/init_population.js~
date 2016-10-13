@@ -268,18 +268,7 @@ function healNode(node){
 	if(node.recoveredFlag){
 		return;
 	}
-	if(node.stageFlag == 3){
-		//else if stage == 3 then mark as ab resistant, increment ab resistant count, re-render as ab resistant, only mark as recovered, disable infected flag- 
-		node.abResistantFlag = true;
-		abResistantNodes = abResistantNodes + 1;
-		node.recoveredFlag = true;
-		node.infectedFlag = false;
-		var svgNode = d3.select("svg")
-						.selectAll("g.nodes")
-							.selectAll('circle[id="'+node.nodeId+']')
-							.attr("fill", abResistantColor);
-	}
-	else if(Math.random() <= node.gamma){
+	if(Math.random() <= node.gamma){
 		//if sucess, disable infected flag, deduct infected node count, update stage ab count, increment recovered count, set recovered flag
 		node.infectedFlag = false;
 		infectedCount = infectedCount - 1;
@@ -307,6 +296,17 @@ function healNode(node){
 							.selectAll('circle[id="'+node.nodeId+'"]')
 							.attr("fill", color);
 
+	}
+	else if(node.stageFlag == 3){
+		//else if stage == 3 then mark as ab resistant, increment ab resistant count, re-render as ab resistant, only mark as recovered, disable infected flag- 
+		node.abResistantFlag = true;
+		abResistantNodes = abResistantNodes + 1;
+		node.recoveredFlag = true;
+		node.infectedFlag = false;
+		var svgNode = d3.select("svg")
+						.selectAll("g.nodes")
+							.selectAll('circle[id="'+node.nodeId+']')
+							.attr("fill", abResistantColor);
 	}
 	else{
 		//increment stage flag, increment gamma value, 

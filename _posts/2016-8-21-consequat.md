@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Consequat
-description: Ipsum dolor sit amet
+title: MIXXX, Contributor
+description: Developed features for world's only FOSS DJ software. Optimized bulk file operations, on-click reset and rewind.
 image: assets/images/pic05.jpg
 ---
 
