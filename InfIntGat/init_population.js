@@ -309,6 +309,18 @@ function healNode(node){
 
 	}
 	else{
+		if(node.stageFlag == 0){
+            //healed on stage 1
+            abStageOneAdministered = abStageOneAdministered + 1;
+        }
+		else if(node.stageFlag == 1){
+			//healed on stage 2
+			abStageTwoAdministered = abStageTwoAdministered + 1;
+		}
+		else if(node.stageFlag == 2){
+		    //healed on stage 3
+			abStageThreeAdministered = abStageThreeAdministered + 1;
+		}
 		//increment stage flag, increment gamma value, 
 		node.stageFlag = node.stageFlag + 1;
 		node.gamma = node.gamma + 0.1;
