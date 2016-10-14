@@ -16,7 +16,7 @@ const oNodeColor = '#F69FB9';
 
 const infectedNodeColor = '#FFEA05';
 
-const stageOneABColor = '#008BDD';
+const stageOneABColor = '#638C99';
 const stageTwoABColor = '#096398';
 const stageThreeABColor = '#2C3940';
 
@@ -276,7 +276,7 @@ function healNode(node){
 		node.infectedFlag = false;
 		var svgNode = d3.select("svg")
 						.selectAll("g.nodes")
-							.selectAll('circle[id="'+node.nodeId+']')
+							.selectAll('circle[id="'+node.nodeId+'"]')
 							.attr("fill", abResistantColor);
 	}
 	else if(Math.random() <= node.gamma){
