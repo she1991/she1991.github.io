@@ -12,7 +12,7 @@ nav-menu:
 <section id="banner" class="major">
 	<div class="inner">
 		<header class="major">
-			<h1>{{ page.landing-title }}</h1>
+			<h1><img src="assets/images/AKASH.gif" style="vertical-align: middle;"/>&nbsp;&nbsp;{{ page.landing-title }}</h1>
 		</header>
 		<div class="content">
 			<p>{{ site.description }}</p>

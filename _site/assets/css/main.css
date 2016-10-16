@@ -2766,7 +2766,7 @@
 			}
 
 			.tiles article:hover:before {
-				opacity: 0;
+				opacity: 0.35;
 			}
 
 			.tiles article.is-transitioning {

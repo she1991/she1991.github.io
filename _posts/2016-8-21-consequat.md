@@ -2,7 +2,7 @@
 layout: post
 title: MIXXX, Contributor
 description: Developed features for world's only FOSS DJ software. Optimized bulk file operations, on-click reset and rewind.
-image: assets/images/pic05.jpg
+image: assets/images/MIXXX.png 
 ---
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
