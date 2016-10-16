@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+.legend { list-style: none; }
+.legend li { float: left; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .Adult { background-color: #74273E; }
+.legend .Child { background-color: #DF3669; }
+.legend .Old { background-color: #F69FB9; }
+.legend .InfectedNode { background-color: #FFEA05; }
+.legend .Stage1 { background-color: #638C99; }
+.legend .Stage2 { background-color: #096398; }
+.legend .Stage3 { background-color: #2C3940; }
+.legend .Resistant { background-color: #FFAC05; }
+</style>
+<h1>Infection and Recovery Visualization of a Non-Homogeneous Population</h1>
+<ul>
+<li>Total Population : <input type="text" id="totalPopulation" readonly/></li>
+<li>Infected Population : <input type="text" id="infectedPopulation" readonly/></li>
+<li>Recovered Population : <input type="text" id="recoveredPopulation" readonly/></li>
+<li>Stage 1 Antibiotics Administered : <input type="text" id="stageOneAB" readonly/></li>
+<li>Stage 2 Antibiotics Administered : <input type="text" id="stageTwoAB" readonly/></li>
+<li>Stage 3 Antibiotics Administered : <input type="text" id="stageThreeAB" readonly/></li>
+<li>Antibiotic resistant population : <input type="text" id="abResistant" readonly/></li>
+</ul>
+<ul class="legend">
+    <li><span class="Adult"></span> Adult</li>
+    <li><span class="Child"></span> Child</li>
+    <li><span class="Old"></span> Old</li>
+    <li><span class="InfectedNode"></span> Infected Node</li>
+    <li><span class="Stage1"></span> Stage 1 Antibiotic</li>
+    <li><span class="Stage2"></span> Stage 2 Antibiotic</li>
+    <li><span class="Stage3"></span> Stage 3 Antibiotic</li>
+    <li><span class="Resistant"></span> Antibiotic Resistant</li>
+</ul>
+<br/>
+<br/>
+<br/>
+<b>Once you have finished reading the legend above, please double-click on any one node below to infect it and start the simulation.<br/>
+You can drag and move the nodes around for better visibility. Reload the page for another trial.
+<br/>
+<center>To read the details and explaination of the model used <a href="RandomWalk_Epidemic_Society.pdf">Click Here</a>.</center>
+<br/>
+</b>
+<svg width="960" height="600"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="init_population.js"></script>
+
