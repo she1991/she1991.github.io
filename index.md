@@ -5,7 +5,6 @@ landing-title: Hi, my name is Akash.
 description: 
 image: 
 author: 
-nav-menu: 
 ---
 
 <!-- Banner -->

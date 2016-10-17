@@ -2717,6 +2717,7 @@
 			.tiles article header {
 				position: relative;
 				z-index: 3;
+				color: #FFFF00;
 			}
 
 			.tiles article h3 {
