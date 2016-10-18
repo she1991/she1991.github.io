@@ -4,19 +4,6 @@ title: MIXXX, Contributor
 description: Developed features for world's only FOSS DJ software. Optimized bulk file operations, on-click reset and rewind.
 image: assets/images/MIXXX.png 
 ---
+I developed some moderate level features for MIXXX, an open-source DJ software. This was also my first contribution to opensource. As a contributor to the MIXXX project, I developed a context menu reset feature to reset the played counter <a href="https://bugs.launchpad.net/mixxx/+bug/893009">(feature/bug)</a>, proposed and developed minute marker designs on a track's waveform <a href="https://bugs.launchpad.net/mixxx/+bug/746456">(feature/bug)</a> and solved DAO issues for bulk file imports into the applications by applying transaction to the data imports, increased efficiency by a very huge factor <a href="https://bugs.launchpad.net/mixxx/1.9/+bug/889825">(bug)</a>.
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
-Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. 
-Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. 
-Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. 
-Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. 
-Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. 
-Pellentesque aliquam maximus risus, vel sed vehicula.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
-Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. 
-Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+<b> I am listed as a contributor on MIXXX project's website <a href="http://www.mixxx.org/contact/">here</a>.</b>
