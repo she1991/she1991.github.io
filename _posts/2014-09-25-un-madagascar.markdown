@@ -1,8 +1,8 @@
 ---
 layout: default
-img: dog.png
+img: phones.png
 category: Services
-title: Game UX and Design :<br>Teaching self-advocacy to deaf middle-schoolers
+title: Designing for Low Bandwidth :<br>Rideshare for UN Madagascar
 description: |
 ---
   Turn your 2D designs into high quality, 3D
