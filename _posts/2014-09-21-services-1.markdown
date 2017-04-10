@@ -2,7 +2,9 @@
 layout: default
 img: ipad.png
 category: Services
-title: Death to the Stock Photo:<br>Special Thanks
+title: UX Design for Machine Learning
 description: |
 ---
-  A special thanks to [Death to the Stock Photo](http://join.deathtothestockphoto.com/) for providing the photographs that you see in this template.  Visit their website to become a member!
+Can professionals like doctors engage with machine learning systems and share their domain expertise with machines?
+<br><br>
+Interactively teach a machine learning system the nuances of making a real-estate valuation. Look inside.
