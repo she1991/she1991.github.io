@@ -26,9 +26,12 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
+  - title: resume
+    icon: trophy
     url: https://twitter.com/SBootstrap
   - title: github
+    icon: github
     url: https://github.com/IronSummitMedia/startbootstrap
   - title: linkedin
+    icon: linkedin
     url: 

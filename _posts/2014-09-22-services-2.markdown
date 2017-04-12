@@ -2,7 +2,8 @@
 layout: default
 img: dog.png
 category: Services
-title: Game UX and Design :<br>Teaching self-advocacy to deaf middle-schoolers
+reserach: 
+title: Game UX and Game Design :<br>Teaching self-advocacy to deaf middle-schoolers
 description: |
 ---
   Turn your 2D designs into high quality, 3D
