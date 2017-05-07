@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: ux-for-ml.html
 video: https://player.vimeo.com/video/97798460
 category: Services
