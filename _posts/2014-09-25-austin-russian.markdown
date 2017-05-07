@@ -1,6 +1,6 @@
 ---
 layout: default
-img: russian_macbook_air.png
+img: promo.png
 category: Services
 title: Russian School of Austin :<br>Website Redesign
 description: |
