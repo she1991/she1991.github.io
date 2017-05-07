@@ -1,0 +1,35 @@
+<section id="services">
+<!-- Page Content -->
+{% for section in page.sections %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == 'odd' %}
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="clearfix"></div>
+                    	<h2 class="section-heading">{{ section.section_title }}</h2>
+                    	<div class="lead">{{ section.section_content }}</div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+    {% else %}
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ section.section_title }}</h2>
+                    <div class="lead">{{ section.section_content }}</div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-b -->
+    {% endif %}
+{% endfor %}
+</section>
