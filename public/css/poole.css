@@ -331,6 +331,9 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
+  position: absolute;
+  background-color: #FFFFFF;
+  height: 100vh;
 }
 
 /* Blog post or page title */
