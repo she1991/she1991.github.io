@@ -1,9 +1,0 @@
----
-layout: default
-video: https://player.vimeo.com/video/44747052
-category: Services
-research: D. Gurari, M. Sameki, and M. Betke. "Investigating the Influence of Data Familiarity to Improve the Design of a Crowdsourcing Image Annotation System." AAAI Conference on Human Computation & Crowdsourcing (HCOMP), Austin, TX, November, 2016.
-title: Quantitative UX :<br>Do UI Aesthetics Influence Paid Crowdwork
-description: |
----
-This template features the 'Lato' font, part of the [Google Web Font library](http://www.google.com/fonts), as well as [icons from Font Awesome](http://fontawesome.io).
