@@ -66,7 +66,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 17rem;
     text-align: left;
   }
 }
@@ -86,7 +86,7 @@ html {
 
 /* Sidebar nav */
 .sidebar-nav {
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*//*Remove any bottom padding, credits div goes here*/
 }
 .sidebar-nav-item {
   display: block;
@@ -130,16 +130,22 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
-    margin-left: 20rem;
+    margin-left: 17rem;
     margin-right: 2rem;
   }
+  /*.post-content {
+    margin-left: 20rem;
+  }*/
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 17rem;
     margin-right: 4rem;
   }
+  /*.post-content {
+    margin-left: 22rem;
+  }*/
 }
 
 
@@ -248,4 +254,25 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+.scroll-up-trigger {
+  width: 3vw;
+  height: 3vw;
+  background-color: #D0011B;	
+}
+
+.scroll-down-trigger {
+  width: 12vw;
+  height: 12vw;
+  background-color: #D0011B;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.post-contents {
+  margin-left: 4em;
+  margin-right: 2em;
+  margin-top: 2em;
 }
