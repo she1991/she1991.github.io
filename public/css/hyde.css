@@ -1,3 +1,7 @@
+---
+title: CSS stylesheet
+---
+
 /*
  *  __                  __
  * /\ \                /\ \
@@ -58,8 +62,14 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  background:
+    linear-gradient( rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62) ),
+    url("../pic.jpg");
+  background-size: cover;
+  background-position: 60% 50%;
   height: 100vh;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
