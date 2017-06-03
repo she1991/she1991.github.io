@@ -272,14 +272,18 @@ a.sidebar-nav-item:focus {
 }
 
 .scroll-up-trigger {
-  width: 3vw;
-  height: 3vw;
+  width: 3vh;
+  height: 3vh;
+  min-width: 3vw;
+  min-height: 3vw;
   background-color: #D0011B;	
 }
 
 .scroll-down-trigger {
-  width: 12vw;
-  height: 12vw;
+  width: 12vh;
+  height: 12vh;
+  min-width: 12vw;
+  min-height: 12vw;
   background-color: #D0011B;
   position: absolute;
   bottom: 0;
