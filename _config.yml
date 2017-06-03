@@ -1,5 +1,4 @@
 # Dependencies
-markdown:         redcarpet
 highlighter:      Pygments
 
 gems: [jekyll-paginate,
@@ -12,7 +11,7 @@ gems: [jekyll-paginate,
 permalink:        pretty
 
 # Setup
-title:            Hyde
+title:            Akash's portfolio
 tagline:          'A Jekyll theme'
 description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              /
@@ -23,6 +22,8 @@ author:
   url:            https://twitter.com/mdo
 
 paginate:         5
+firstname:         'Akash'
+lastname:         'SHETYE'
 
 # Custom vars
 version:          2.1.0

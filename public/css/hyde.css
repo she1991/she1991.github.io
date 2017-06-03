@@ -76,13 +76,13 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 20vw;
+    width: 25vw;
     z-index: 1000;
     text-align: left;
   }
 
   .post {
-    width: 80vw;
+    width: 75vw;
   }
 }
 
@@ -125,7 +125,6 @@ a.sidebar-nav-item:focus {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
     left:   1rem;
   }
 }
@@ -145,7 +144,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
-    margin-left: 20vw;
+    margin-left: 25vw;
     margin-right: 2rem;
   }
   /*.post-content {
@@ -155,7 +154,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 20vw;
+    margin-left: 25vw;
     margin-right: 4rem;
   }
   /*.post-content {
@@ -298,4 +297,22 @@ a.sidebar-nav-item:focus {
 
 .posts {
   visibility: hidden;
+}
+
+.name-div {
+  margin-top: 10vh;
+  text-align: right;
+}
+
+.name-div .firstname {
+  font-family: 'Josefin Sans';
+  font-size: 7vw;
+  color: #D0011B;
+}
+
+.name-div .lastname {
+  font-family: 'Josefin Sans';
+  font-size: 3vw;
+  margin-top: -1.3em;
+  color: #FFFFFF;
 }
