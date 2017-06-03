@@ -76,8 +76,13 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 17rem;
+    width: 20vw;
+    z-index: 1000;
     text-align: left;
+  }
+
+  .post {
+    width: 80vw;
   }
 }
 
@@ -140,7 +145,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
-    margin-left: 17rem;
+    margin-left: 20vw;
     margin-right: 2rem;
   }
   /*.post-content {
@@ -150,7 +155,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 17rem;
+    margin-left: 20vw;
     margin-right: 4rem;
   }
   /*.post-content {
