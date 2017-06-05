@@ -32,3 +32,21 @@
   padding-bottom: 2px;
   text-align: left;
 }
+
+@media (min-width: 48em) {
+  .sidebar-description {
+    margin-top: 15vh!important;
+    font-size: calc(0.015*100vmax)!important;
+  }
+}
+
+.sidebar-description {
+  margin-bottom: calc(0.1*6vh);
+  margin-top: 28vh;
+  right: 0;
+  font-family: 'Josefin Sans';
+  font-size: calc(0.023*100vmax);
+  font-weight: lighter;
+  color: #FFFFFF;
+  text-align: right;
+}
