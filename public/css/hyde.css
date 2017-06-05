@@ -38,6 +38,12 @@ title: CSS stylesheet
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
+
+body {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
+}
+
 @media (min-width: 48em) {
   html {
     font-size: 16px;
