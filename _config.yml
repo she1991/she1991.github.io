@@ -28,5 +28,5 @@ lastname:         'SHETYE'
 # Custom vars
 version:          2.1.0
 
-github:
+github:           https://github.com/she1991
   repo:           https://github.com/poole/hyde

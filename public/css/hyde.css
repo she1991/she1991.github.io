@@ -84,6 +84,10 @@ html {
   .post {
     width: 75vw;
   }
+
+  .footer-div {
+    width:25vw!important;
+  }
 }
 
 /* Sidebar links */
@@ -297,22 +301,4 @@ a.sidebar-nav-item:focus {
 
 .posts {
   visibility: hidden;
-}
-
-.name-div {
-  margin-top: 10vh;
-  text-align: right;
-}
-
-.name-div .firstname {
-  font-family: 'Josefin Sans';
-  font-size: 7vw;
-  color: #D0011B;
-}
-
-.name-div .lastname {
-  font-family: 'Josefin Sans';
-  font-size: 3vw;
-  margin-top: -1.3em;
-  color: #FFFFFF;
 }
