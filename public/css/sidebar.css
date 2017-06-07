@@ -7,17 +7,35 @@
   text-align: right;
 }
 
+@media (min-width: 48em) {
+  .name-div .firstname {
+    font-size: 5vmax!important;
+  }
+  .name-div .lastname {
+    font-size: 2vmax!important;
+    margin-top: calc(-1.8em + 0.5vw)!important;
+  }
+}
+
 .name-div .firstname {
-  font-family: 'Josefin Sans';
-  font-size: calc(0.08*100vmax);
+  font-family: 'Martel Sans';
+  font-size: 10vmax;
+  font-weight: 200;
   color: #D0011B;
 }
 
 .name-div .lastname {
-  font-family: 'Josefin Sans';
-  font-size: calc(0.02*100vmax);
-  margin-top: calc(-2em + 0.5vw);
+  font-family: 'Martel Sans';
+  font-size: 5vmax;
+  margin-top: calc(-1em + 0.5vw);
+  font-weight: 200;
   color: #FFFFFF;
+}
+
+@media (min-width: 48em) {
+  .footer-div {
+    font-size: 0.9vmax!important;
+  }
 }
 
 .footer-div {
@@ -27,7 +45,7 @@
   left:0;
   position: absolute;
   bottom: 0;
-  font-size: calc(0.28*6vh);
+  font-size: 1.8vmax;
   font-family: 'Helvetica';
   color: #FFFFFF;
   padding-left: 20px;
@@ -40,16 +58,17 @@
 @media (min-width: 48em) {
   .sidebar-description {
     margin-top: 15vh!important;
-    font-size: calc(0.015*100vmax)!important;
+    font-size: 1.2vmax!important;
   }
 }
 
 .sidebar-description {
   margin-bottom: calc(0.1*6vh);
   margin-top: 28vh;
+  font-weight: 200;
   right: 0;
-  font-family: 'Josefin Sans';
-  font-size: calc(0.023*100vmax);
+  font-family: 'Martel Sans';
+  font-size: 2vmax;
   font-weight: lighter;
   color: #FFFFFF;
   text-align: right;
