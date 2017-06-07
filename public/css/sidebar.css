@@ -59,12 +59,13 @@
   .sidebar-description {
     margin-top: 15vh!important;
     font-size: 1.2vmax!important;
+    margin-top: 28vh;
   }
 }
 
 .sidebar-description {
   margin-bottom: calc(0.1*6vh);
-  margin-top: 28vh;
+  margin-top: 15vh;
   font-weight: 200;
   right: 0;
   font-family: 'Martel Sans';
