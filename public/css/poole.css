@@ -330,8 +330,8 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-top: -4em;
-  position: absolute;
+  /*margin-top: -4em;
+  position: absolute;*/
   background-color: #FFFFFF;
   height: 100vh;
   overflow: hidden;

@@ -3,12 +3,14 @@ layout: default
 title: Home
 jsarr:
     - script/ScrollManager.js
+    - script/jquery.fullpage.min.js
 ---
 
 <div class="posts">
+  <div class="scroll-up-trigger"></div>
+  <div id="fullpage">
   {% for post in paginator.posts %}
-  <div class="post">
-	<div class="scroll-up-trigger"></div>
+  <div class="post section">
     <div class="post-contents">
     <h1 class="post-title">
       <a href="{{ post.url }}">
@@ -17,7 +19,8 @@ jsarr:
     </h1>
     {{ post.content }}
     </div>
-    <div class="scroll-down-trigger"></div>
   </div>
   {% endfor %}
+  </div>
+  <div class="scroll-down-trigger"></div>
 </div>

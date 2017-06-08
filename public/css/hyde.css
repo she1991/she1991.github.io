@@ -147,8 +147,8 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+  /*padding-top:    4rem;
+  padding-bottom: 4rem;*/
 }
 
 @media (min-width: 48em) {
@@ -280,23 +280,37 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
+@media (min-width: 48em) {
+  .scroll-up-trigger {
+    visibility: visible!important;
+  }
+  .scroll-down-trigger {
+    visibility: visible!important;
+  }
+}
+
 .scroll-up-trigger {
-  width: 3vh;
-  height: 3vh;
-  min-width: 3vw;
-  min-height: 3vw;
+  width: 5vmax;
+  height: 5vmax;
+  min-width: 5vmax;
+  min-height: 5vmax;
   background-color: #D0011B;	
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  visibility: hidden;
 }
 
 .scroll-down-trigger {
-  width: 12vh;
-  height: 12vh;
-  min-width: 12vw;
-  min-height: 12vw;
+  width: 12vmax;
+  height: 12vmax;
+  min-width: 12vmax;
+  min-height: 12vmax;
   background-color: #D0011B;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
+  visibility: hidden;
 }
 
 .post-contents {
@@ -307,4 +321,14 @@ a.sidebar-nav-item:focus {
 
 .posts {
   visibility: hidden;
+}
+
+@media (min-width: 48em) {
+  .fp-section.fp-table, .fp-slide.fp-table {
+    width: 75vw!important;
+  }
+}
+
+.fp-section.fp-table, .fp-slide.fp-table {
+    width: 100vw;
 }

@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/hyde.css">
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/sidebar.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface|Martel+Sans:200,400,700">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}public/css/jquery.fullPage.css" />
 
 
   <!-- Icons -->
@@ -31,6 +32,7 @@
 
   <!--js-->
   <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   {% for js in page.jsarr %}
     <script type="text/javascript">
         {% include {{ js }} %}
