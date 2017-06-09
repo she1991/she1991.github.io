@@ -27,5 +27,5 @@ function updateFixedDivs() {
         .text(activePostTitle);
     //Set nextPostTitle to scroll-down-trigger
     d3.select(".scroll-down-trigger h4")
-        .text(nextPostTitle);
+        .text(nextPostTitle+".");
 }

@@ -69,7 +69,7 @@ body {
   color: rgba(255,255,255,.5);
   background-color: #202020;
   background:
-    linear-gradient( rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70) ),
+    linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),
     url("../pic.jpg");
   background-size: cover;
   background-position: 60% 50%;
@@ -290,15 +290,24 @@ a.sidebar-nav-item:focus {
 }
 
 .scroll-up-trigger {
-  width: 5vmax;
-  height: 5vmax;
-  min-width: 5vmax;
-  min-height: 5vmax;
+  width: 4vmax;
+  height: 4vmax;
+  min-width: 4vmax;
+  min-height: 4vmax;
   background-color: #D0011B;	
   position: fixed;
   z-index: 1000;
   top: 0;
   visibility: hidden;
+}
+
+.scroll-up-trigger h4 {
+  text-align: center;
+  margin-top: 1.2vmax;
+  font-family: 'Martel Sans';
+  font-size: 1.5vmax;
+  font-weight: 400;
+  color: #FFFFFF;
 }
 
 .scroll-down-trigger {
@@ -311,6 +320,33 @@ a.sidebar-nav-item:focus {
   bottom: 0;
   right: 0;
   visibility: hidden;
+}
+
+.scroll-down-trigger h4 {
+  font-family: 'Martel Sans';
+  font-size: 1.5vmax;
+  font-weight: 300;
+  color: #FFFFFF;
+  white-space: pre-wrap;      /* CSS3 */   
+  white-space: -moz-pre-wrap; /* Firefox */    
+  white-space: -pre-wrap;     /* Opera <7 */   
+  white-space: -o-pre-wrap;   /* Opera 7 */    
+  word-wrap: break-word;      /* IE */
+  text-align: center;
+  margin-top: calc(12vmax*0.3);
+  margin-bottom: 2vmax;
+  margin-right: 2vmax;
+  margin-left: 2vmax;
+}
+
+.scroll-down-trigger .scroll-arrow {
+  position: absolute;
+  bottom: 0;
+  left: calc(12vmax*0.42);
+  max-width: 2vmax;
+  max-height: 2vmax;
+  width: 2vmax;
+  height: 2vmax;
 }
 
 .post-contents {
