@@ -6,28 +6,26 @@ function bodyLoaded(){
 	$(document).ready(function() {
 		$('#fullpage').fullpage();
 	});
-    //Get all post divs
-    var postDivs = d3.selectAll(".post");
-    //Display the first post div
-    postDivs.style("visibility",
-        function(d, i){if(i == 0){return "visible";}else{return "visible"}}
-    );
-    //Make 'posts' div visible
-    var posts = d3.selectAll(".posts")
-        .style("visibility", "visible");
-    lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    window.addEventListener('scroll', scrollHandler, true)
+    updateFixedDivs();
 }
 
-function scrollHandler(e) {
-	console.log("scroll", e);
-	var st = window.pageYOffset || document.documentElement.scrollTop;
-   	if (st > lastScrollTop){
-    	// downscroll code
-    	console.log("down");
-	} else {
-		// upscroll code
-		console.log("up");
-	}
-	lastScrollTop = st;
+function updateFixedDivs() {
+	//get which post is active
+    var activePostDiv = d3.selectAll(".active");
+    //Get post below it
+    var nextPost = d3.select(".active + .post");
+    //Get first character of current post title
+    var activePostTitle = String(activePostDiv.select(".post-title").text()).trim().slice(0,1);
+    //Get following post title
+    var nextPostTitle = "";
+    if(!nextPost.empty()){
+        nextPostTitle = String(nextPost.select(".post-title").text()).trim();
+    }
+    console.log(activePostTitle, nextPostTitle);
+    //Set activePostTitle to scroll-up-trigger
+    d3.select(".scroll-up-trigger h4")
+        .text(activePostTitle);
+    //Set nextPostTitle to scroll-down-trigger
+    d3.select(".scroll-down-trigger h4")
+        .text(nextPostTitle);
 }

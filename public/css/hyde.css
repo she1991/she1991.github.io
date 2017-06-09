@@ -319,10 +319,6 @@ a.sidebar-nav-item:focus {
   margin-top: 2em;
 }
 
-.posts {
-  visibility: hidden;
-}
-
 @media (min-width: 48em) {
   .fp-section.fp-table, .fp-slide.fp-table {
     width: 75vw!important;
