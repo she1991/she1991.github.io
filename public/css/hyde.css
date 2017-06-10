@@ -69,7 +69,7 @@ body {
   color: rgba(255,255,255,.5);
   background-color: #202020;
   background:
-    linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),
+    linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) ),
     url("../pic.jpg");
   background-size: cover;
   background-position: 60% 50%;
@@ -325,7 +325,7 @@ a.sidebar-nav-item:focus {
 .scroll-down-trigger h4 {
   font-family: 'Martel Sans';
   font-size: 1.3vmax;
-  font-weight: 200;
+  font-weight: 300;
   color: #FFFFFF;
   white-space: pre-wrap;      /* CSS3 */   
   white-space: -moz-pre-wrap; /* Firefox */    
@@ -385,5 +385,24 @@ a.sidebar-nav-item:focus {
   width: 2vmax;
   height: 70vh;
   position: fixed;
-  background-color: #90a959;
+  right: 0;
+  margin-right: 1vmax;
+  margin-top: 4vh;
+  z-index: 1000;
+}
+
+.scroll-beads div {
+  border-radius: 50%;
+  width: 1.2vmax;
+  height: 1.2vmax;
+  margin-top: 2vmax;
+  margin-bottom: 2vmax;
+}
+
+.scroll-bead {
+  background-color: #9B9B9B;
+}
+
+.scroll-bead-active {
+  background-color: #D0011B;
 }

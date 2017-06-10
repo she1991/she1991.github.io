@@ -26,7 +26,7 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
-paginate:         5
+paginate:         100
 firstname:         'Akash'
 lastname:         'SHETYE'
 
