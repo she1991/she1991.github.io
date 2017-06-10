@@ -386,15 +386,15 @@ a.sidebar-nav-item:focus {
   height: 70vh;
   position: fixed;
   right: 0;
-  margin-right: 1vmax;
-  margin-top: 4vh;
+  margin-right: 0.5vmax;
+  margin-top: 22vh;
   z-index: 1000;
 }
 
 .scroll-beads div {
   border-radius: 50%;
-  width: 1.2vmax;
-  height: 1.2vmax;
+  width: 1vmax;
+  height: 1vmax;
   margin-top: 2vmax;
   margin-bottom: 2vmax;
 }
