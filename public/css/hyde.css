@@ -294,7 +294,7 @@ a.sidebar-nav-item:focus {
   height: 4vmax;
   min-width: 4vmax;
   min-height: 4vmax;
-  background-color: #D0011B;	
+  background-color: #008779;	
   position: fixed;
   z-index: 1000;
   top: 0;
@@ -315,7 +315,7 @@ a.sidebar-nav-item:focus {
   height: 12vmax;
   min-width: 12vmax;
   min-height: 12vmax;
-  background-color: #D0011B;
+  background-color: #008779;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -324,8 +324,8 @@ a.sidebar-nav-item:focus {
 
 .scroll-down-trigger h4 {
   font-family: 'Martel Sans';
-  font-size: 1.5vmax;
-  font-weight: 300;
+  font-size: 1.3vmax;
+  font-weight: 200;
   color: #FFFFFF;
   white-space: pre-wrap;      /* CSS3 */   
   white-space: -moz-pre-wrap; /* Firefox */    
@@ -339,7 +339,22 @@ a.sidebar-nav-item:focus {
   margin-left: 2vmax;
 }
 
+.the-end-trigger {
+  margin-top: calc(12vmax*0.4)!important;
+}
+
 .scroll-down-trigger .scroll-arrow {
+  position: absolute;
+  bottom: 0;
+  left: calc(12vmax*0.42);
+  max-width: 2vmax;
+  max-height: 2vmax;
+  margin-bottom: 2px;
+  width: 2vmax;
+  height: 2vmax;
+}
+
+.scroll-down-trigger .hidden-scroll-arrow {
   position: absolute;
   bottom: 0;
   left: calc(12vmax*0.42);
@@ -347,6 +362,7 @@ a.sidebar-nav-item:focus {
   max-height: 2vmax;
   width: 2vmax;
   height: 2vmax;
+  visibility: hidden;
 }
 
 .post-contents {
@@ -363,4 +379,11 @@ a.sidebar-nav-item:focus {
 
 .fp-section.fp-table, .fp-slide.fp-table {
     width: 100vw;
+}
+
+.scroll-beads {
+  width: 2vmax;
+  height: 70vh;
+  position: fixed;
+  background-color: #90a959;
 }
