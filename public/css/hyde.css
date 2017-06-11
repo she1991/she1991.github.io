@@ -325,7 +325,7 @@ a.sidebar-nav-item:focus {
 .scroll-down-trigger h4 {
   font-family: 'Roboto';
   font-size: 1.2vmax;
-  font-weight: 100;
+  font-weight: 300;
   color: #FFFFFF;
   white-space: pre-wrap;      /* CSS3 */   
   white-space: -moz-pre-wrap; /* Firefox */    
