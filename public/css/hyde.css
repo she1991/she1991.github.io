@@ -69,7 +69,7 @@ body {
   color: rgba(255,255,255,.5);
   background-color: #202020;
   background:
-    linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) ),
+    linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),
     url("../pic.jpg");
   background-size: cover;
   background-position: 60% 50%;
@@ -304,9 +304,9 @@ a.sidebar-nav-item:focus {
 .scroll-up-trigger h4 {
   text-align: center;
   margin-top: 1.2vmax;
-  font-family: 'Martel Sans';
-  font-size: 1.5vmax;
-  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 1.2vmax;
+  font-weight: 300;
   color: #FFFFFF;
 }
 
@@ -323,9 +323,9 @@ a.sidebar-nav-item:focus {
 }
 
 .scroll-down-trigger h4 {
-  font-family: 'Martel Sans';
-  font-size: 1.3vmax;
-  font-weight: 300;
+  font-family: 'Roboto';
+  font-size: 1.2vmax;
+  font-weight: 100;
   color: #FFFFFF;
   white-space: pre-wrap;      /* CSS3 */   
   white-space: -moz-pre-wrap; /* Firefox */    
@@ -333,14 +333,14 @@ a.sidebar-nav-item:focus {
   white-space: -o-pre-wrap;   /* Opera 7 */    
   word-wrap: break-word;      /* IE */
   text-align: center;
-  margin-top: calc(12vmax*0.3);
+  margin-top: calc(12vmax*0.35);
   margin-bottom: 2vmax;
   margin-right: 2vmax;
   margin-left: 2vmax;
 }
 
 .the-end-trigger {
-  margin-top: calc(12vmax*0.4)!important;
+  margin-top: calc(12vmax*0.45)!important;
 }
 
 .scroll-down-trigger .scroll-arrow {
@@ -363,6 +363,17 @@ a.sidebar-nav-item:focus {
   width: 2vmax;
   height: 2vmax;
   visibility: hidden;
+}
+
+.scroll-down-trigger h3 {
+  transform: rotate(-90deg);
+  position: fixed;
+  margin-top: 5vmax;
+  margin-left: -3.5vmax;
+  font-family: 'Roboto';
+  font-size: 2vmax;
+  font-weight: 100;
+  color: #AAAAAA;
 }
 
 .post-contents {
