@@ -37,7 +37,7 @@ function updateFixedDivs() {
         d3.select(".the-end-trigger")
             .attr("class","");
         d3.select(".scroll-down-trigger h4")
-            .text(nextPostTitle+".");
+            .text(nextPostTitle);
     }
 
     updateScrollBeads(postId);

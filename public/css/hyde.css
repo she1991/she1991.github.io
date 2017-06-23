@@ -66,12 +66,7 @@ body {
 .sidebar {
   text-align: center;
   color: rgba(255,255,255,.5);
-  background-color: #202020;
-  background:
-    linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) ),
-    url("../pic.jpg");
-  background-size: cover;
-  background-position: 60% 50%;
+  background-color: #008779;
   height: 100vh;
 }
 
@@ -414,5 +409,5 @@ a.sidebar-nav-item:focus {
 }
 
 .scroll-bead-active {
-  background-color: #D0011B;
+  background-color: #ff5252;
 }
