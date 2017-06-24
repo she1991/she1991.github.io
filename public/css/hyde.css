@@ -373,7 +373,7 @@ a.sidebar-nav-item:focus {
 .post-contents {
   margin-left: 4.4vmax;
   margin-right: 2.6vmax;
-  margin-top: 6vmax;
+  margin-top: -4vmax;
 }
 
 @media (min-width: 48em) {

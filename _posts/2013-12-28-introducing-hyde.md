@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Hey! Welcome to My Portfolio.
+title: Hi, I am Akash!
 ---
+I am a user experience designer based out of Austin, TX.
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+I currently work as a UX designer and game dev at SAGA Labs where I design experimental gaming experiences.<br/>In my previous life, I was a technology analyst at Credit Suisse.
 
-### Built on Poole
+### What I do
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Hyde here) includes the following:
+I 
 
 * Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
 * Mobile friendly design and development
