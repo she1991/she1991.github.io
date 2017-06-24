@@ -11,7 +11,7 @@ title: Work Experience.
 <b>Data Automation (GRA) 2016.</b> <br/>Built dashboards, analyzed data, scraped API-less vendors and read books!
 
 <br/>
-<img src="public/SAGALogo.png" width="10%" height="10%"/>
+<img src="public/SAGAlogo.png" width="10%" height="10%"/>
 <b>UX Designer (GRA) 2017 - Present.</b> <br/>Designing game UX and conducting user research.
 
 <div class="message">
