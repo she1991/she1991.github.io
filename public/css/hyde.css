@@ -371,9 +371,9 @@ a.sidebar-nav-item:focus {
 }
 
 .post-contents {
-  margin-left: 4.4vmax;
+  margin-left: 5.4vmax;
   margin-right: 2.6vmax;
-  margin-top: -4vmax;
+  margin-top: 0vmax;
 }
 
 @media (min-width: 48em) {
