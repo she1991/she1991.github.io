@@ -1,9 +1,29 @@
+var fullpageCreated = false;
+var createdHeight = -1;
+
 function bodyLoaded(){
 	$(document).ready(function() {
-		$('#fullpage').fullpage();
+        createFullpage();
 	});
     initializeScrollBeads();
     updateFixedDivs();
+}
+
+function createFullpage() {
+    if(fullpageCreated === false) {
+        fullpageCreated = true;
+        $('#fullpage').fullpage();
+        createdHeight = d3.select(".fp-table").style("height");
+        $(window).resize(function() {
+            var newHeight = d3.select(".fp-table").style("height");
+            console.log(newHeight+" "+createdHeight);
+            if(newHeight > createdHeight) {
+                fullpageCreated = false; 
+                $.fn.fullpage.destroy('all');
+                createFullpage();
+            }
+        });
+    }
 }
 
 function updateFixedDivs() {

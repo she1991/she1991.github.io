@@ -36,7 +36,7 @@ title: CSS stylesheet
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -46,12 +46,12 @@ body {
 
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 1vmax;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 1vmax;
   }
 }
 
@@ -371,9 +371,9 @@ a.sidebar-nav-item:focus {
 }
 
 .post-contents {
-  margin-left: 4em;
-  margin-right: 2em;
-  margin-top: 2em;
+  margin-left: 4.4vmax;
+  margin-right: 2.6vmax;
+  margin-top: 6vmax;
 }
 
 @media (min-width: 48em) {
@@ -402,6 +402,8 @@ a.sidebar-nav-item:focus {
   height: 1vmin;
   margin-top: 2vmin;
   margin-bottom: 2vmin;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .scroll-bead {
