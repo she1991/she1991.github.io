@@ -4,35 +4,36 @@
 
 .name-div {
   margin-top: 0vh;
-  text-align: right;
+  text-align: left;
+  margin-left: 0;
 }
 
-@media (min-width: 48em) {
+@media {
   .name-div .firstname {
-    font-size: 5vmax!important;
+    font-size: 4vmax!important;
   }
   .name-div .lastname {
     font-size: 2vmax!important;
-    margin-top: calc(-1.8em + 0.5vw)!important;
+    margin-top: calc(-1.5em + 0.5vw)!important;
   }
 }
 
 .name-div .firstname {
   font-family: 'Roboto';
-  font-size: 10vmax;
+  font-size: 5vmax;
   font-weight: 300;
   color: #FFFFFF;
 }
 
 .name-div .lastname {
   font-family: 'Roboto';
-  font-size: 5vmax;
+  font-size: 2vmax;
   margin-top: calc(-1em + 0.4vw);
   font-weight: 300;
   color: #FFFFFF;
 }
 
-@media (min-width: 48em) {
+@media {
   .footer-div {
     font-size: 12px;
   }
@@ -55,7 +56,7 @@
   text-align: right;
 }
 
-@media (min-width: 48em) {
+@media {
   .sidebar-description {
     margin-top: 15vh!important;
     font-size: 12px;
