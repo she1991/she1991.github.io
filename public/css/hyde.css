@@ -70,7 +70,7 @@ body {
   height: 100vh;
 }
 
-@media (min-width: 48em) {
+@media {
   .sidebar {
     position: fixed;
     top: 0;
@@ -125,7 +125,7 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
-@media (min-width: 48em) {
+@media {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
@@ -145,7 +145,7 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;*/
 }
 
-@media (min-width: 48em) {
+@media {
   .content {
     max-width: 38rem;
     margin-left: 25vw;
@@ -156,7 +156,7 @@ a.sidebar-nav-item:focus {
   }*/
 }
 
-@media (min-width: 64em) {
+@media  {
   .content {
     margin-left: 25vw;
     margin-right: 4rem;
@@ -274,7 +274,7 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-@media (min-width: 48em) {
+@media {
   .scroll-up-trigger {
     visibility: visible!important;
   }
@@ -376,7 +376,7 @@ a.sidebar-nav-item:focus {
   margin-top: 0vmax;
 }
 
-@media (min-width: 48em) {
+@media{
   .fp-section.fp-table, .fp-slide.fp-table {
     width: 75vw!important;
   }
@@ -386,15 +386,14 @@ a.sidebar-nav-item:focus {
     width: 100vw;
 }
 
-.scroll-beads {
+/*.scroll-beads {
   width: 2vmax;
-  height: 70vh;
   position: fixed;
   right: 0;
   margin-right: 0.5vmax;
   margin-top: 30vh;
   z-index: 1000;
-}
+}*/
 
 .scroll-beads div {
   border-radius: 50%;

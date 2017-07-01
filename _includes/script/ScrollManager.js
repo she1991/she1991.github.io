@@ -4,9 +4,10 @@ var createdHeight = -1;
 function bodyLoaded(){
 	$(document).ready(function() {
         createFullpage();
+        initializeScrollBeads();
+        updateFixedDivs();
+        repositionScrollBeads();
 	});
-    initializeScrollBeads();
-    updateFixedDivs();
 }
 
 function createFullpage() {
@@ -89,4 +90,23 @@ function updateScrollBeads(postId) {
         .attr("class", "scroll-bead");
     d3.select(".scroll-beads #bead"+postId)
         .attr("class", "scroll-bead-active");
+}
+
+function repositionScrollBeads () {
+    //Calculate the margin to so as to place the beads exacty in the center
+    var divHeight = d3.select(".scroll-beads")
+        .node()
+        .getBoundingClientRect()
+        .height;
+    //calculate new margin top
+    divHeight = divHeight/2;
+    d3.select(".scroll-beads")
+        .styles({
+            "width": "2vmax",
+            "position": "fixed",
+            "right": "0",
+            "margin-right": "0.5vmax",
+            "margin-top": "calc(45vh - "+divHeight+"px)",
+            "z-index": "1000" 
+        });
 }
