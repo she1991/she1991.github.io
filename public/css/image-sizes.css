@@ -1,5 +1,7 @@
 .fat-finger {
 	max-width:1000px;
-	max-height:593px;
-	margin-left: 10vw;
+	/*max-height:593px;*/
+	width: 80%;
+	height: auto;
+	margin-left: 7vw;
 }
