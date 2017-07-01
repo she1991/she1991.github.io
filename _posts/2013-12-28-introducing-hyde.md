@@ -9,7 +9,7 @@ I currently work as a UX designer and game dev at SAGA Labs where I design exper
 <img src="public/design_workspace.png" width="20%" height="20%" style="display: inline;"/><img src="public/plus_sign.svg" width="10%" height="10%" style="display: inline;margin-bottom: 7%;"/><img src="public/program.png" width="20%" height="20%" style="display: inline;"/>
 
 ### What I do
-* Create user-centered digital products from broad design and business requirements.
+* Design user-centered digital products from broad design and business requirements.
 * Inform design decisions using qualitative and quantitative user research.
 * Turn napkin sketches into functional high fidelity prototypes and front-end deliverables.
 
