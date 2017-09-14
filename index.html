@@ -1,0 +1,128 @@
+---
+layout: default
+---
+
+<header class="header">
+  <nav class="header-title nav-wrapper">
+    <a href="{{ site.url }}{{ site.baseurl }}" class="brand-logo left">{{ site.name }}</a>
+    <ul class="right">
+      {% for nav in site.nav %}
+      {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+      <li><a class="white-text" href="{{ nav.url }}">{{ nav.name }}</a></li>
+      {% else %}
+      <li><a class="white-text" href="{{ site.url }}{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+  <!--<img class="regular-img" src="{{ site.baseurl }}/images/Portrait.jpg" />
+  <div class="list-post-desc">
+    {{ site.desc }}
+  </div>-->
+</header>
+<div class="hero-contents">
+</div>  
+<div class="pitch-area">
+  <div class="pitch-area-title">
+    <!--<a class="call-button btn-floating waves-effect waves-light">-->
+    </a>
+  </div>
+  <div class="pitch-card">
+  <h2>This is Akash.</h2>
+  I am an user experience designer and a design technologist.<br>
+  Human Computer Interaction (HCI) grad @ University of Texas at Austin.<br>
+  User Research and UX @ SAGA Labs.<br>
+  Looking for full time opportunities starting June 2018.<br><br>
+  <a class="waves-effect waves-light btn-large action-button" href="#projects"><b>See my work</b></a>
+  </div>
+  
+</div>
+<div id="projects" class="slanted-section-banner">
+    <vspan/>
+    <div>Selected Work</div>
+    <div class="banner-desc">
+      Some of my most interesting projects and their stories.
+    </div>
+</div>
+<div class="list">
+{% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+{% else %}
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <div class="list-post">  
+      <div class="z-depth-2">
+        <img class="wide-img" src="{{ site.url }}{{ site.baseurl }}/images/{{ post.image }}" />
+      </div>
+      <div class="post-content-box z-depth-2">
+        <div class="list-post-title">
+          {{ post.title }}
+        </div>
+        {% if post.description %}
+        <div class="list-post-desc">
+          <div class="list-post-subtitle">{{ post.subtitle }}</div>
+          {{ post.description }}
+          {% if post.link %}
+          <a href="{{ post.link }}">
+          {% else %}
+          <a href="{{ site.url }}{{ post.url | prepend: site.baseurl }}">
+          {% endif %} 
+          <div class="action-target btn">
+            View Project
+          </div>
+          </a>
+        </div>
+      </div>
+      {% endif %}
+      <br><br>
+  </div>
+{% endfor %}
+  <!-- Pagination links -->
+  <div class="list-pagination">
+    <span class="list-pagination-previous">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
+          &#xE000; previous
+        </a>
+      {% else %}
+
+      {% endif %}
+    </span>
+
+    <span class="list-pagination-next">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
+          next &#xE001;
+        </a>
+      {% else %}
+
+      {% endif %}
+    </span>
+
+  </div>
+{% endif %}
+</div>
+<div id="about" class="slanted-section-banner">
+  <vspan/>
+  <div>About Me</div>
+  <div class="banner-desc">
+    TL;DR. Passionate about making intuitive and frictionless experiences.
+  </div>
+</div>
+
+<div class="about-me full-wide-img">
+  <div class="content-container">
+    <p><b>As a UX designer and a technologist</b>, I design delightful user experiences and help translate them into technical deliverables; <b>working across design and technology teams</b>, to build user experiences that rock.</p>
+    <img src="{{ site.url }}{{ site.baseurl }}/images/about.png" />
+    <p>I will be graduating from my Masters program in Information Sciences (HCI track) in May 2018. I am a student researcher at UT's own gaming studio - SAGA Labs; working as a user researcher and user experience designer.</p>
+  </div>
+</div>
+
+<div id="contact" class="slanted-section-banner">
+  <vspan/>
+  <div>Contact</div>
+</div>
+
+<div class="about-me">
+
+</div>

@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<header class="header">
+  <nav class="header-title header-post-title nav-wrapper">
+    <a href="{{ site.url }}{{ site.baseurl }}" class="brand-logo left">{{ site.name }}</a>
+    <ul class="right">
+      {% for nav in site.nav %}
+      {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+      <li><a class="white-text" href="{{ nav.url }}">{{ nav.name }}</a></li>
+      {% else %}
+      <li><a class="white-text" href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+  <!--<img class="regular-img" src="{{ site.baseurl }}/images/Portrait.jpg" />
+  <div class="list-post-desc">
+    {{ site.desc }}
+  </div>-->
+</header>
+<div class="body-cover"></div>
+<div class="post">
+  <img class="wide-img" src="{{ site.url }}{{ site.baseurl }}/images/{{ page.image }}"></img>
+  <div class="post-title">{{ page.title }}</div>
+  <div class="post-tag">
+    <ul>
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+          <span>{{ tag }}</span>
+        </a>
+      </li>
+      {% unless forloop.last %}{% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  {{ content }}
+
+  <!-- Disqus -->
+  {% if page.comments != false and site.disqus.id %}
+  <div class="post-disqus">
+      <section id="disqus_thread"></section>
+      {% include disqus.html %}
+  </div>
+  {% endif %}
+
+</div>
