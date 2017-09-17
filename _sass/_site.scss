@@ -179,6 +179,15 @@ body {
   }
 }
 
+.brand-logo-icon {
+  height: 40px;
+  margin-top: calc(100% - 32px);
+  visibility: hidden;
+  @media (max-width: 70rem){
+    visibility: visible;
+  }
+}
+
 .pitch-card {
   position: absolute;
   width: 80%;

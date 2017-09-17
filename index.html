@@ -5,6 +5,7 @@ layout: default
 <header class="header">
   <nav class="header-title nav-wrapper">
     <a href="{{ site.url }}{{ site.baseurl }}" class="brand-logo left">{{ site.name }}</a>
+    <a href="{{ site.url }}{{ site.baseurl }}" class="left"><img class="brand-logo-icon" src="{{ site.url }}{{ site.baseurl }}/images/home.svg"/></a>
     <ul class="right">
       {% for nav in site.nav %}
       {% if nav.url contains 'http://' or nav.url contains 'https://' %}
