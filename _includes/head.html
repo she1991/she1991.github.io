@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
-
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico"/>
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css" type="text/css">
   <script src="/assets/js/smooth-scroll.js" type="text/javascript"></script>
@@ -13,7 +13,6 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono|Bungee+Shade" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
-  {% seo %}
 
 
   {% include google-analytics.html %}
