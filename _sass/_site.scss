@@ -597,6 +597,31 @@ body {
   font-size: 1.1rem;
 }
 
+.contact-me {
+  background-color: #212121;
+  width: 100%;
+  z-index: -2;
+  min-height: 500px;
+  position: relative;
+  padding-top: 300px;
+  padding-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.contact-me .card {
+  width: 20rem;
+  @media (max-width: 70rem){
+    width: inherit;
+  }
+}
+
+.contact-me .row {
+  width: 65rem;
+  @media (max-width: 70rem){
+    width: inherit;
+  }
+}
+
 
 /*--------------
   Footer
