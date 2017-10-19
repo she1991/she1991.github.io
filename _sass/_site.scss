@@ -598,7 +598,7 @@ body {
 }
 
 .contact-me {
-  background-color: #212121;
+  background-color: #FAFAFA;
   width: 100%;
   z-index: -2;
   min-height: 500px;
@@ -609,14 +609,19 @@ body {
 }
 
 .contact-me .card {
+  background-color: #9C27B0!important;
   width: 20rem;
   @media (max-width: 70rem){
     width: inherit;
   }
 }
 
+.contact-me .card .card-action {
+  background-color: #6A1B9A;
+}
+
 .contact-me .row {
-  width: 65rem;
+  width: 43rem;
   @media (max-width: 70rem){
     width: inherit;
   }
