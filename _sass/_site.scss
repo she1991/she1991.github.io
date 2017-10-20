@@ -1,3 +1,5 @@
+
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -218,7 +220,26 @@ body {
   background-color: #E040FB;
 }
 
+.heading-area {
+  min-width: 150%;
+  min-height: 25vh;
+  background-color: #9C27B0;
+  margin-left: calc(-25%);
+  padding-top: 12vh;
+  padding-left: 25%;
+  padding-right: 25%;
+}
 
+.heading-area .post-title {
+  font-family: 'Roboto Mono';
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+.heading-area .post-sub-title {
+  font-family: 'Roboto Mono';
+  font-size: 1rem;
+  color: #FFFFFF;
+}
 
 /*--------------
   Header
@@ -252,7 +273,7 @@ body {
   }
 
   &-post-title {
-    background-color: #00BFA5!important;
+    background-color: #00897B!important;
   }
 
   &-nav {
@@ -315,14 +336,6 @@ body {
   padding-right: 1rem;
   padding-left: 1rem;
   background-color: #ffffff;
-
-  &-title {
-    margin-top: 0rem;
-    margin-bottom: 0.3rem;
-    font-size: 2.25em;
-    line-height: 1.2em;
-    font-weight: 600;
-  }
 
   &-date {
     margin-bottom: .5rem;
