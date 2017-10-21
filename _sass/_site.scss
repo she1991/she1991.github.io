@@ -38,7 +38,7 @@ body {
   margin-left:  auto;
   margin-right: auto;
   @media (max-width: 48rem){
-    padding: 0rem 1.3rem;
+    /*padding: 0rem 1.3rem;*/
   }
 }
 
@@ -221,25 +221,98 @@ body {
 }
 
 .heading-area {
-  min-width: 150%;
+  min-width: 180%;
   min-height: 25vh;
   background-color: #9C27B0;
-  margin-left: calc(-25%);
+  margin-left: calc(-40%);
   padding-top: 12vh;
   padding-left: 25%;
   padding-right: 25%;
+  padding-bottom: 6vh;
+  @media (max-width: 70rem){
+    max-width : 100%;
+    min-width : 100%;
+    margin-left : 0rem;
+    padding-left: 10%;
+  }
 }
 
 .heading-area .post-title {
   font-family: 'Roboto Mono';
   font-size: 2rem;
   color: #FFFFFF;
+  @media (max-width: 70rem){
+    font-size: 1.5rem;
+  }
 }
 .heading-area .post-sub-title {
   font-family: 'Roboto Mono';
   font-size: 1rem;
   color: #FFFFFF;
+  @media (max-width: 70rem){
+    font-size: 1rem;
+  }
 }
+
+.sub-heading-area {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 70rem){
+    flex-direction: column;
+   }
+}
+
+.sub-heading-area .quote-area {
+  flex: 7;
+  padding-top: 5rem;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: italic;
+  padding-right: 1rem;
+  @media (max-width: 70rem){
+    order: 2;
+    padding-top: 2rem;
+    margin: 1rem;
+    padding-right: 0rem;
+  }
+}
+.sub-heading-area .quote-area blockquote {
+  border-left: 5px solid #00897B!important;
+}
+
+.sub-heading-area .card-area {
+  position: relative;
+  flex: 3;
+  padding-top: 1.2rem;
+  @media (max-width: 70rem){
+    order: 1;
+    margin: 1rem;
+  }
+}
+
+.sub-heading-area .card-area .card .card-title {
+  min-width: 100%;
+  background-color: #E0E0E0;
+  font-family: Roboto;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.sub-heading-area .card-area .card .card-content .stat-heading {
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.sub-heading-area .card-area .card .card-content .stat {
+  font-family: Roboto;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 
 /*--------------
   Header
@@ -311,6 +384,10 @@ body {
   }
 }
 
+.sub-title p {
+  text-align: center;
+}
+
 /*--------------
   Page
   -------------- */
@@ -331,7 +408,6 @@ body {
   -------------- */
 .post {
   
-  padding-top: calc( 64px + 2rem);
   padding-bottom: 3rem;
   padding-right: 1rem;
   padding-left: 1rem;
@@ -394,6 +470,10 @@ body {
     margin: auto;
   }
 
+}
+
+.post .btn-div {
+  text-align: center;
 }
 
 /*--------------

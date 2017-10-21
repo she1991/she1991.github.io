@@ -35,7 +35,7 @@ a {
 /*--------------
   Header
   -------------- */
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-weight: 600;
 }
 
@@ -50,14 +50,15 @@ h1 {
 h2 {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
-  font-size: 1.75em;
+  font-size: 1.75em!important;
+  font-family: Roboto;
   line-height: 1.225em;
   border-bottom: 1px solid #eee;
 }
 
 h3 { 
-  font-size: 1.5em; 
-  line-height: 1.43em;
+  font-size: 1.2em!important;
+  font-family: Roboto;
 }
 
 h4 { 
@@ -78,9 +79,10 @@ h6 {
   -------------- */
 
 p {
-  color: $text-color;
+  color: rgba(0,0,0,0.7);
   margin: 0 0 1rem;
   line-height: 1.7em;
+  font-size: 1rem;
 }
 
 /*--------------
@@ -319,7 +321,6 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;
 }
 
 /*--------------

@@ -4,12 +4,13 @@ layout: default
 <header class="header">
   <nav class="header-title header-post-title nav-wrapper">
     <a href="{{ site.url }}{{ site.baseurl }}" class="brand-logo left">{{ site.name }}</a>
+    <a href="{{ site.url }}{{ site.baseurl }}" class="left"><img class="brand-logo-icon" src="{{ site.url }}{{ site.baseurl }}/images/home.svg"/></a>
     <ul class="right">
       {% for nav in site.nav %}
       {% if nav.url contains 'http://' or nav.url contains 'https://' %}
       <li><a class="white-text" href="{{ nav.url }}">{{ nav.name }}</a></li>
       {% else %}
-      <li><a class="white-text" href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a></li>
+      <li><a class="white-text" href="{{ site.url }}{{ site.baseurl }}{{ nav.url }}">{{ nav.name }}</a></li>
       {% endif %}
       {% endfor %}
     </ul>
@@ -20,30 +21,38 @@ layout: default
   </div>-->
 </header>
 <div class="body-cover"></div>
-<div class="post">
-  <img class="wide-img" src="{{ site.url }}{{ site.baseurl }}/images/{{ page.image }}"></img>
+<div class="heading-area">
   <div class="post-title">{{ page.title }}</div>
-  <div class="post-tag">
-    <ul>
-      {% for tag in page.tags %}
-      <li>
-        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
-          <span>{{ tag }}</span>
-        </a>
-      </li>
-      {% unless forloop.last %}{% endunless %}
-      {% endfor %}
-    </ul>
+  <div class="post-sub-title">{{ page.timeline }}</div>
+</div>
+<div class="sub-heading-area">
+  <div class="quote-area"><blockquote>"{{page.lead_quote}}"</blockquote></div>
+  <div class="card-area">
+    <div class="card z-depth-3">
+      <div class="card-title">PROJECT STATS</div>
+      <div class="card-content">
+       <ul>
+        <li class="stat-heading">Team size</li>
+        <li class="stat">{{page.team_size}}</li>
+        <li class="stat-heading">My role</li>
+        <li class="stat">{{page.role}}</li>
+        <li class="stat-heading">Timeline</li>
+        <li class="stat">{{page.timeline}}</li>
+        <li class="stat-heading">Methods used</li>
+        <li class="stat">{{page.methods}}</li>
+        <li class="stat-heading">Client</li>
+        <li class="stat">{{page.client}}</li>
+       </ul>
+      </div>
+    </div>
   </div>
+</div>
+<div class="post">
+  <!--<img class="img" src="{{ site.url }}{{ site.baseurl }}/images/{{ page.image }}"></img>-->
 
   {{ content }}
-
-  <!-- Disqus -->
-  {% if page.comments != false and site.disqus.id %}
-  <div class="post-disqus">
-      <section id="disqus_thread"></section>
-      {% include disqus.html %}
+  <div class="btn-div">
+    <a class="waves-effect waves-light btn" href="{{ site.url }}{{ site.baseurl }}/#projects">Back to Projects</a>
   </div>
-  {% endif %}
-
 </div>
+
