@@ -220,6 +220,10 @@ body {
   background-color: #E040FB;
 }
 
+.pitch-card h2 {
+  color: #FFFFFF;
+}
+
 .heading-area {
   min-width: 180%;
   min-height: 25vh;
@@ -281,7 +285,7 @@ body {
     padding-right: 0rem;
   }
 }
-.sub-heading-area .quote-area blockquote {
+blockquote {
   border-left: 5px solid #00897B!important;
 }
 
