@@ -3,7 +3,7 @@ layout: post
 title: "NDC's MapIt : Game based learning for deaf kids"
 subtitle: "BUILDING A DEAF FIRST GAMING EXPERIENCE"
 description: "Built a deaf-first experience by working with deaf users and NDC. Informed game's design and user interface with user-research. Conducted user play-tests, ran focus-groups and demos. Also, shape-shifting into dev and art roles as needed."
-timeline: "April 2016 - Present"
+timeline: "April 2017 - Present"
 team_size: "9"
 role: "User reasearch and experience design."
 methods: "Exploratory concept (convergent & divergent) research, qualitative user research, storyboarding, game design, low and high fidelity protoyping, accessibility engineering, UI design, play testing"
@@ -50,6 +50,8 @@ permalink: nationaldeafcenter/
 
 <h2>Limits of personas</h2>
 <p>The hard of hearing and hearing impaired community has an added dimension of uniqueness over on top of the traits that make you and me different from one another. Small differences in hearing-ability have very large impact on the life-experiences and self-image of a person and it is very difficult to lump this population into brackets. Often designers use personas to represent homogenous user populations that share a common goal, trait or some point of reference - this homogeneity is very difficult to apply on populations with impairments since minor variations in the nature of impairment may lead to very different persons. <blockquote>A hard of hearing person who uses an amplifier headset is very different from a completely deaf individual who again is different from a deaf individual who has been deaf since birth; in terms of both impairment and life experiences!</blockquote></p>
+<img class="wide-img" src="{{ site.url }}{{ site.baseurl }}/images/level.png"/>
+<div class="sub-title"><p>The user personas may lie anywhere on the 3-dimensional spectrum. There are the primary factors that influence our target user base.</p></div>
 <p>We look at our target population on a spectrum of hearing impairment, socio-economic standing and age. Unifying the diverse experiences of deaf users by distilling their experiences into common themes such that the game covers the representation of deaf individuals across the hearing impairment spectrum. As such, we are not designing the user experience based on personas; we instead use a fluid representation of a deaf individual. The nature of the player character’s impairment or their physical representation is not discussed in the game - leaving this to the player’s own imagination.</p>
 <blockquote><i>"NDC is using "deaf" in an all-inclusive manner, to include people who may identify as Deaf, deaf, deafblind, deafdisabled, hard of hearing, late-deafened, and hearing impaired. NDC recognizes that for many individuals, identity is fluid and can change over time or with setting. NDC has chosen to use one term - deaf - with the goal of recognizing experiences that are shared by all members of our diverse communities while also honoring all of our differences."</i> - National Deaf Center</blockquote>
 
