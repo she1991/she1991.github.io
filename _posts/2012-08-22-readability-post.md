@@ -68,17 +68,66 @@ permalink: nationaldeafcenter/
 <img src="{{ site.url }}{{ site.baseurl }}/images/MedalScene.png"/>
 <div class="sub-title"><p>Players are rewarded for making the best choices.</p></div>
 <h3>Functional prototype</h3>
+<p>After the initial concept art was critiqued and improved on, we moved on to build a functional prototype of the game. This would be used to demonstrate the working vision for the game to stakeholders and also test the idea of the game with deaf children. The functional prototype would serve as a very early litmus test for a long term development of the game.</p>
+<img class= "wide-img" src="{{ site.url }}{{ site.baseurl }}/images/functional_city.png"/>
+<div class="sub-title"><p>A screen grab of a rough-cut pilot game for demonstration and early user testing.</p></div>
+<img class= "wide-img" src="{{ site.url }}{{ site.baseurl }}/images/functional_class.png"/>
+<div class="sub-title"><p>A visual novel style interaction.</p></div>
 
-- EARLY EXPLORATION
-	- Agency and self-advocacy
-	- A commitment to Inclusivity and diversity
-- limits of personas
-- LOW FIDELITY PROTOTYPES
-- COGNITIVE LOAD IN TEXT BASED RPGs
-- User research on ASL interfaces
-- ASL integration and video support
-- User research on ASL narration styles
-- Playtesting and focus groups
-- Accessibility challenges in game design
-- Current state
-- Future work
+<h2>Early testing and elicitation device</h2>
+<p> This functional prototype was vital in getting stakeholder opinion, it acted as an elicitation device for the stakeholders who would then critique and suggest improvements to the game. We also wanted to continuously test the game mechanics and interface on our target user group.</p>
+<h3>Early qualitative research</h3>
+<p>Early qualitative studies were designed to gather as much rich qualitative feedback as possible. Over all two extensive qualitative studies were conducted with deaf children, we were helped by staff at NDC in conducting and administering the tests. <blockquote>We collected screen recording and webcam video of the participants to understand the emotional response to the game. This was followed by a short written survey and a focus group.</blockquote> Early research did yeild some interesting results and these results are explained in the following section.</p>
+<h3>Problems with player representation</h3>
+<img class= "wide-img" src="{{ site.url }}{{ site.baseurl }}/images/feedback.png"/>
+<div class="sub-title"><p>A common theme with player representation, also explored in focus groups.</p></div>
+<p>Players wanted more customization and relatable graphics for the player. We have seen how this is very complicated in a game world based in real life - where we must consider all varieties of deafness and human traits to achieve this. As a solution, all player representations were removed from the game. Navigation through the over-world will be done in a first person view only and RPG interactions will not show the player’s own character.</p>
+<h3>Cognitive load in text heavy gameplay</h3>
+<p>Because the game was heavily text based, children found it difficult to follow the complex dialogues and make accurate decisions. NDC recommended that the text in the game could be supplemented by American Sign Language videos. These ASL based video captions would let players with poor reading skills grasp the concepts being discussed in the game. <blockquote>This would set the stage for making Mapit the first ASL captioned game.</blockquote></p>
+
+<h2> User research : ASL integration</h2>
+<p>American Sign Language is a form of language practiced and standardized in the deaf community that expresses English in the form of sign language. ASL is made up of composite words, phrases, expressions and body-language that conveys meaning. It does not translate 1:1 to an equivalent English sentence - thus needs to be translated not captioned. Referring to the ASL videos in the games as ‘<i>translations</i>’ rather than ‘<i>captions</i>’ would be more appropriate.</p>
+<h3>Tradeoff between dialog length and ASL</h3>
+<p>ASL translations can pack a lot of information in a very short clip. It was decided that the ideal length of a dialog should be about 250 characters, which leads to a long enough ASL video while keeping the text only dialog digestible. This is rough pseudo-scientific estimate and has worked well in our experience.</p>
+<h3>Testing ASL integrated interfaces</h3>
+<p>To understand the how we can best re-distribute the screen real-estate to include ASL videos, I prepared a set of four ASL integrated prototypes. These prototypes demonstrate varying levels of real-estate dedicated to ASL translations.</p>
+<img src="{{ site.url }}{{ site.baseurl }}/images/prot_1asl.png"/>
+<div class="sub-title"><p>Prototype 1: Video content is right oriented to suggest secondary importance at an offset to allow larger game art.</p></div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/prot_2asl.png"/>
+<div class="sub-title"><p>Prototype 2: Video content is centered in a more movie like representation.</p></div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/prot_3asl.png"/>
+<div class="sub-title"><p>Prototype 3: Video content is right oriented occupies smaller space and is strictly a secondary element.</p></div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/prot_4asl.png"/>
+<div class="sub-title"><p>Prototype 4: Video content is right oriented with its own special real estate and large size.</p></div>
+<h3>Prototype 4 wins, with a few tweaks</h3>
+<p> After testing these prototypes with users, prototype #4 was chosen as the best available representation of ASL videos in the game. <blockquote> The users interacted with the game in a left to right reading pattern and preferred ASL translations over text. making the ASL video left aligned would ease this preference, as ASL (not text) was the primary source of information now.</blockquote></p>
+
+<h2> User research : ASL narration styles</h2>
+<p>NDC was toying around with the idea of ASL translation in two ways.</p>
+<ol>
+	<li><b>Translations per line of dialog</b> : Every dialog in the game has an associated ASL translation that is played along with the dialog.</li>
+	<li><b>Long form narratives about whole scenario</b> : Every individual scenario in the game would have a single long form narrative that plays along as the user goes through the dialogs.</li>
+</ol>
+<p> Having ASL translations per dialog would seem like an obvious choice to able-hearing persons, this is because we are not accustomed to using ASL the way deaf people do. Long form narratives help keep the cohesiveness of the ASL translation, where multiple breaks between ASL dialogs can be distracting. Another distinction is that ASL translations per dialog would need a unique interpreter to sign the ASL per game character. Also, the editing and packaging of these multiple videos (up to 30 dialogs in a single scenario) is an expensive exercise. NDC wanted to explore if narrative approaches were as effective as having ASL translations per dialog.</p>
+<p> Informed by user research conducted, we choose to use per dialog translations instead of long form narratives in ASL. Even if this mean higher production costs and management overhead, this would provide the players the best user experience.</p>
+
+<blockquote><i>"I think the dialogs and videos should be in sync. If you had, make sure you had one sign vignette per dialog box. So you might have to edit her sign vignette to match the dialog." - Partcipant #11</i></blockquote>
+
+<h2>Play testing and focus groups</h2>
+<p>Play testing is a user testing paradigm which is closer to the game design world than the user experience world. The objective of play testing is to uncover any design flaws in the mechanics of the game, any loopholes, any glitches in behaviour etc. This is a blend of usability testing along with an attention to the element of <i>fun</i>. The primary purpose of a game is have fun playing it. Regular play testing sessions are conducted on both deaf and regular audiences, because access to deaf minors or even minors is difficult to set up - we conduct playtests with young adults and older children. This is to ensure that storyline of the game is entertaining and keep you hooked.</p>
+<img class= "wide-img" src="{{ site.url }}{{ site.baseurl }}/images/playtest.jpg"/>
+<div class="sub-title"><p>A regular playtesting setup for small groups, each playtester plays the game followed with a focus group.</p></div>
+<p> I run playtests in a casual setting, participants usually fill out a short written survey after playing the game to jot down any immediate feedback. It also acts as a primer for the focus group that would follow, where participants can use their answers to these qualitative surveys to participate in the focus group. I conduct focus groups in a professional friendly manner, this involves probing why player found certain aspect dull, difficult etc. The focus group are also a great way to understand the first time impressions of the game and we have gathered some very revealing research from these.</p>
+<img class= "wide-img" src="{{ site.url }}{{ site.baseurl }}/images/surveys.jpg"/>
+<div class="sub-title"><p>Written surveys on completion of playtests help prime participants on things to think about for the focus group.</p></div>
+
+<h2>Accessibility challenges in game development</h2>
+<p>We use Unity3D as the game development engine and environment. Unity has poor accessibility support, especially for text to speech and accessibility for native applications. Accessibility features have to be explicitly implemented by the game developers. The project is also federally funded and must comply with section 508 and Texas ADA laws, it is an enormous responsibility on my part to ensure that all kinds of players are able to enjoy and learn from this game.</p>
+<blockquote> Making the game accessible to people of all kinds of impairments is a priority. I am also working on building a re-usable open-source Unity plugin to facilitate accessibility in WebGl distributions of games.</blockquote>
+
+<h2>Current state and future work</h2>
+<p>The game in its current state is far from done. While the storylines are being continuously worked upon and integrated into the game, the game needs a lot of art assets and renderings. On the overworld front; the game is not yet connected between the overworld and the RPG narrative. There is a lot of work remaining for the scoreboards and fine tuning the game mechanics for an exciting gameplay.</p>
+<img class= "wide-img" src="{{ site.url }}{{ site.baseurl }}/images/current.png"/>
+<div class="sub-title"><p>The game in its current state.</p></div>
+<p>Future work also involves tangential projects like the Unity WebGl accessibility plugin, which is a moonshot project to help game developers around the world build more accessible games. As we go along, we would like to know more about the deaf community and design stories and in-game tasks that capture the daily struggles and victories of deaf people. I thank SAGA Lab and the National Deaf Center for giving me the opportunity to work on such an awesome project.</p>
+<br/><br/>
