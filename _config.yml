@@ -61,7 +61,7 @@ nav:
   - name:           "Projects"
     url:            "#projects"
   - name:           "Resume"
-    url:            "resume"
+    url:            "/images/AkashS-UX-Resume.pdf"
   - name:           "Contact"
     url:            "#contact"
 
