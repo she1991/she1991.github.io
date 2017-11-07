@@ -702,10 +702,7 @@ blockquote {
   background-color: #FAFAFA;
   width: 100%;
   z-index: -2;
-  min-height: 500px;
   position: relative;
-  padding-top: 300px;
-  padding-bottom: 2rem;
   font-size: 1.1rem;
 }
 
@@ -722,12 +719,33 @@ blockquote {
 }
 
 .contact-me .row {
-  width: 43rem;
+  display: inline;
   @media (max-width: 70rem){
     width: inherit;
   }
 }
 
+.contact-left-section {
+  width: 50vw;
+  background-color: #212121;
+  text-align: center;
+  height: 50vh;
+  color: white;
+  padding-top: 30vh!important;
+}
+
+.center-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-right-section {
+  width: 50vw;
+  background-color: #FFFFFF;
+  text-align: center;
+  height: 50vh;
+  padding-top: 30vh!important;
+}
 
 /*--------------
   Footer
