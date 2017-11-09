@@ -698,10 +698,14 @@ blockquote {
   font-size: 1.1rem;
 }
 
+#contact {
+  z-index: 1;
+}
+
 .contact-me {
   background-color: #FAFAFA;
   width: 100%;
-  z-index: -2;
+  z-index: 0;
   position: relative;
   font-size: 1.1rem;
 }
@@ -727,11 +731,16 @@ blockquote {
 
 .contact-left-section {
   width: 50vw;
-  background-color: #212121;
+  background-color: #64FFDA;
   text-align: center;
-  height: 50vh;
+  height: 80vh;
   color: white;
-  padding-top: 30vh!important;
+  padding-top: 45vh!important;
+}
+
+.contact-left-section a{
+  color: #004D40;
+  font-weight: bold;
 }
 
 .center-image {
@@ -743,8 +752,17 @@ blockquote {
   width: 50vw;
   background-color: #FFFFFF;
   text-align: center;
-  height: 50vh;
-  padding-top: 30vh!important;
+  height: 80vh;
+  padding-top: calc(45vh + 48px)!important;
+}
+
+.contact-right-section img {
+  padding-bottom: 20px;
+}
+
+.contact-right-section a {
+  color: #616161;
+  font-weight: bold;
 }
 
 /*--------------
