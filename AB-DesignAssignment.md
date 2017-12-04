@@ -17,7 +17,7 @@ share: false
 permalink: AdvisoryB-DesignAssignment
 ---
 <div class="btn-div">
-	<img class="wide-img" src="{{ site.url }}{{ site.baseurl }}/images/Annotated_low.png"/><br/><br/>
+	<img class="wide-img" src="{{ site.url }}{{ site.baseurl }}/images/Annotated_Low.png"/><br/><br/>
     <p>Annotated low-fidelity mock-ups detailing the various screens of the mobile application and their states.<br/><br/><a class="waves-effect waves-light btn" href="{{ site.url }}{{ site.baseurl }}/images/AdvisoryBoard_AkashShetye.sketch">Download Sketch File</a></p>
 </div>
 
